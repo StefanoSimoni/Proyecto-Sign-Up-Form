@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.sign-up-logo {
+    font-family: 'Star Jedi';
+    min-width: 326px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.empire-bg {
+    min-width: 326px;
+    flex: 1;
+}
+
+.sign-up-logo > .empire-tittle {
+    width: 480px;
+    flex: 1;
+}
+
+.empire-tittle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 310px;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex: 1;
+}
+
+.empire-logo {
+    filter: invert(1);
+    width: 130px;
+}
+
+.empire-text {
+    font-size: 30px;
+}
+
+.sign-up-form {
+    flex: 3;
+}
