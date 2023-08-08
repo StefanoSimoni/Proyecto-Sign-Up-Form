@@ -114,3 +114,41 @@ a:visited {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.form-mid {
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-mid > h1 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    gap: 50px;
+}
+
+label {
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+
+input {
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color: rgba(211, 211, 211, 0.05);
+}
+
+input:focus {
+    outline: 1px solid blue;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
