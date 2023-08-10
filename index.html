@@ -35,6 +35,7 @@
                         <div>
                             <label for="pass">CONTRASEÑA<span aria-label="required">*</span></label>
                             <input type="password" name="pass" id="pass" required >
+                            <span class="password-error" id="password-error" aria-live="polite">* Las contraseñas no coinciden</span>
                         </div>
                     </div>
                     <div class="form-right">
@@ -51,13 +52,14 @@
                             <input type="password" name="confirm-pass" id="confirm-pass" required >
                         </div>
                     </div>
+                    <button type="submit">Crear Cuenta</button>
                 </form>
             </div>
             <div class="form-bot">
-                <button type="submit">Crear Cuenta</button>
                 <p>¿Ya tienes una cuenta? <a href="#">Ingresa</a></p>
             </div>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
